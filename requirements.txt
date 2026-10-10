@@ -1,0 +1,17 @@
+# --- Core ---
+python-dotenv>=1.0     # reads secrets from the .env file
+pydantic>=2.6          # data models with validation (BlogRequest, BlogDraft, ...)
+requests>=2.31         # HTTP calls: LLM API, link checks, crawler, PageSpeed
+
+# --- Content and HTML ---
+beautifulsoup4>=4.12   # parse HTML (audit crawler, link and heading checks)
+markdown>=3.5          # convert the blog's Markdown to HTML on export
+
+# --- Research ---
+pytrends>=4.9          # Google Trends (unofficial; we fall back to autocomplete if it fails)
+
+# --- Interface ---
+streamlit>=1.32        # simple web UI
+
+# --- Testing ---
+pytest>=8.0

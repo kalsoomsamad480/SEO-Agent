@@ -1,0 +1,17 @@
+Create the SEO metadata for this blog post.
+
+Focus keyword: {focus_keyword}
+Target audience: {audience}
+Goal of the blog: {goal}
+Article headline: {h1}
+Start of the article:
+{intro}
+
+Rules (all fields must use the SAME focus keyword, "{focus_keyword}"):
+- "title": the page title shown in Google. At most {title_max} characters. Put "{focus_keyword}" near the start.
+- "meta_description": at most {meta_max} characters. Include "{focus_keyword}" naturally, say what the
+  reader will get, and end with a soft call to action that fits the goal.
+- "slug": short, lowercase, words joined by hyphens, containing "{keyword_slug}". No dates or stop words.
+- "feature_image_alt": describe a realistic feature image for this post in under 125 characters,
+  including "{focus_keyword}" naturally.
+{problems}

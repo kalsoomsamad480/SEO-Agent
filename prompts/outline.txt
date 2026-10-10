@@ -1,0 +1,21 @@
+Create an outline for an SEO blog post.
+
+Topic: {topic}
+Target audience: {audience}
+Tone: {tone}
+Goal of the blog: {goal}
+Focus keyword: {focus_keyword}
+Secondary keywords: {secondary_keywords}
+Questions real people ask about this topic:
+{faq_questions}
+
+Rules for the outline:
+1. "h1": a clear headline that contains the exact phrase "{focus_keyword}".
+2. "intro_notes": what the intro should say. The intro must use "{focus_keyword}" in its first two sentences.
+3. "sections": 4 to 6 H2 sections in a logical order for this audience.
+   - At least one H2 must contain the exact phrase "{focus_keyword}".
+   - Add H3 sub-points ("h3s") only where they genuinely help.
+   - In "notes", say what to cover and which secondary keyword fits there.
+   - The last section may be a short wrap-up. Do NOT include an FAQ section here.
+4. "faq_questions": choose {faq_count} questions from the list above (light rewording is fine).
+   Each must end with a question mark.

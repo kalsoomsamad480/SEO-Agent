@@ -1,0 +1,31 @@
+# Look and feel of the web app (read by Streamlit at start-up).
+# Colour palette: navy sidebar, white cards on a soft grey page, one blue accent.
+
+[theme]
+base = "light"
+primaryColor = "#2563EB"            # buttons, links, active elements
+backgroundColor = "#F5F7FB"         # page background (soft grey)
+secondaryBackgroundColor = "#FFFFFF"   # inputs and widgets
+textColor = "#0F172A"               # near-black slate, easier on the eyes than pure black
+linkColor = "#2563EB"
+borderColor = "#E2E8F0"
+showWidgetBorder = true
+baseRadius = "10px"
+buttonRadius = "8px"
+baseFontSize = 15
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap, sans-serif"
+headingFontWeights = [700, 600, 600, 600, 600, 600]
+showSidebarBorder = false
+
+[theme.sidebar]
+backgroundColor = "#0F172A"         # deep navy
+secondaryBackgroundColor = "#1E293B"
+textColor = "#E2E8F0"
+primaryColor = "#60A5FA"
+borderColor = "#1E293B"
+
+[client]
+toolbarMode = "minimal"             # hide developer menu items
+
+[browser]
+gatherUsageStats = false

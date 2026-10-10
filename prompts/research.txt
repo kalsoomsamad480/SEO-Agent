@@ -1,0 +1,22 @@
+You are doing keyword research for one blog post.
+
+Topic: {topic}
+Niche: {niche}
+Target audience: {audience}
+Goal of the blog: {goal}
+
+Real Google searches related to this topic (from Google autocomplete):
+{keyword_ideas}
+
+Choose:
+1. "focus_keyword": ONE search phrase (2 to 5 words, lowercase) that this post should rank for.
+   - Prefer a phrase from the list above, because real people search for it.
+   - It must match the topic and the goal ("educate" -> informational phrases like "how to ...";
+     "sales" or "leads" -> phrases showing buying intent like "best ..." or "... service").
+   - Choose a specific phrase, not a one-word or very broad term.
+2. "secondary_keywords": 3 to 5 related phrases to use naturally in the post, preferably from the list.
+   Do not repeat the focus keyword.
+3. "source_suggestions": 2 to 4 URLs of SPECIFIC pages on highly trusted sites that support this topic:
+   government (.gov), universities (.edu), official documentation, standards bodies, Wikipedia,
+   or major publishers. Only suggest pages you are confident really exist. They will be checked
+   automatically, and invented URLs will be rejected. Return fewer rather than guess.

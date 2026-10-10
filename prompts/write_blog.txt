@@ -1,0 +1,37 @@
+Write a complete blog post in Markdown, following the outline below.
+
+Topic: {topic}
+Target audience: {audience}
+Tone: {tone}
+Goal of the blog: {goal}
+Focus keyword: {focus_keyword}
+Secondary keywords: {secondary_keywords}
+
+OUTLINE:
+{outline}
+
+STRICT RULES (an automatic checker will verify every one):
+1. Length: about {target_words} words. Never fewer than {min_words}.
+2. Start with exactly one H1 line: "# {h1}". Never use "# " anywhere else.
+3. Use "{focus_keyword}" in the first two sentences of the intro.
+4. Use the exact phrase "{focus_keyword}" {keyword_min} to {keyword_max} times in total, spread naturally.
+   Use each secondary keyword at least once.
+5. Use the H2 ("## ") and H3 ("### ") headings from the outline. Never skip a level (no H2 straight to H4).
+6. Sources: link to each of these trusted sources at least once, inside a sentence where it is relevant,
+   with descriptive anchor text (never "click here" or "here"):
+{authority_links}
+   Do not add any other external links.
+{internal_link_rule}
+7. Do not invent statistics, percentages, studies or quotes. Only state a number if it comes from one
+   of the sources above, and link that source in the same paragraph.
+8. Do not add images. The feature image is added automatically.
+9. End with this FAQ section, as the LAST section of the post:
+   ## Frequently Asked Questions
+   ### <question>?
+   <direct answer in 1-3 sentences, at most {faq_max_words} words, starting with the answer itself>
+   Use these questions:
+{faq_questions}
+10. Writing style for "{audience}": short paragraphs, clear sentences, explain any jargon the first
+    time you use it. Make the post genuinely useful: give steps, examples and practical tips.
+
+Reply with ONLY the Markdown article. No preamble and no code fences.

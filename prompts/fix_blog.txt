@@ -1,0 +1,31 @@
+An automatic SEO checker reviewed the blog post below and found problems.
+Rewrite the post to fix EVERY problem listed, while keeping everything that already works.
+
+Focus keyword: {focus_keyword}
+Secondary keywords: {secondary_keywords}
+Target audience: {audience}
+Tone: {tone}
+
+PROBLEMS TO FIX:
+{problems}
+
+RULES THAT MUST STILL HOLD after your changes:
+- At least {min_words} words (aim for about {target_words}).
+- Exactly one H1 at the top, containing "{focus_keyword}". Headings go H1 -> H2 -> H3, never skipping a level.
+- Use "{focus_keyword}" {keyword_min} to {keyword_max} times in total, including once in the first two
+  sentences and in at least one H2.
+- Only link to these sources, with descriptive anchor text (never "click here"):
+{authority_links}
+  If a link is reported as broken, remove it. Never invent a new link.
+{internal_link_rule}
+- No invented statistics, percentages, studies or quotes. Any number must be linked to its source
+  in the same paragraph, or removed.
+- The LAST section must be "## Frequently Asked Questions" with at least {faq_min} questions as
+  "### ...?" H3 headings, each answered directly in at most {faq_max_words} words.
+- No images (the feature image is added automatically).
+- Fix problems by adding real value (examples, steps, explanations), not filler or repeated phrases.
+
+CURRENT POST:
+{article}
+
+Reply with ONLY the complete corrected Markdown article. No preamble, no code fences, no list of changes.

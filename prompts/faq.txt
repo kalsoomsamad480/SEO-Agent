@@ -1,0 +1,13 @@
+Pick the best FAQ questions for a blog post.
+
+Focus keyword: {focus_keyword}
+Target audience: {audience}
+
+Real questions people type into Google:
+{questions}
+
+Choose the {count} questions that would be most useful to this audience. Rules:
+- Only choose from the list above. You may fix grammar and capitalisation, but keep the meaning
+  and most of the original words.
+- Avoid near-duplicates (two questions with the same answer).
+- Each question must end with a question mark.

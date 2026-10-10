@@ -1,0 +1,26 @@
+Write a {draft_type} for a backlink opportunity. This is a DRAFT that a human will review,
+edit and send manually.
+
+About our blog post:
+- Title: {blog_title}
+- URL: {blog_url}
+- Focus keyword: {focus_keyword}
+- Summary: {blog_summary}
+
+The opportunity:
+- Name: {opportunity}
+- Category: {category}
+- URL: {opportunity_url}
+- What we know about it: {notes}
+
+{instructions}
+
+Rules:
+- Be honest, friendly and specific. Never claim things we don't know (traffic numbers,
+  past collaborations, awards, or that we have read articles we don't know about).
+- Personalise it using only the information above. Use [square brackets] for anything the human
+  must fill in, e.g. [your name], [name of a recent article you liked].
+- Offer real value to their readers. Never offer money, link swaps or anything that
+  breaks search engine guidelines.
+- Keep it short: at most {max_words} words.
+- Plain text only. No Markdown headings.
